@@ -1,0 +1,102 @@
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+E:\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.deps.json
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Data.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.AssemblyInfo.cs
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHag.416B09C0.Up2Date
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\refint\CurvaHagz.Bussines.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\CurvaHagz.Bussines.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHagz.Bussines.App\obj\Debug\net8.0\ref\CurvaHagz.Bussines.App.dll
