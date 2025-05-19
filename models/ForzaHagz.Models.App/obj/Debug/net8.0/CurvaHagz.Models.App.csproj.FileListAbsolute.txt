@@ -1,0 +1,126 @@
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\Web development\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\En.Ahmed\Downloads\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\Acer\Desktop\GradProject (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+E:\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+E:\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+E:\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+E:\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+E:\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\Acer\Desktop\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\En.Ahmed\Downloads\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\Acer\Downloads\Telegram Desktop\GradProject (3) (2)\GradProject (2) (2)\GradProject (2) (2)\GradProject\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\En.Ahmed\Downloads\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.deps.json
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.runtimeconfig.json
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\bin\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfoInputs.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.AssemblyInfo.cs
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\refint\CurvaHagz.Models.App.dll
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.pdb
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\CurvaHagz.Models.App.genruntimeconfig.cache
+C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\ForzaHagz.Models.App\obj\Debug\net8.0\ref\CurvaHagz.Models.App.dll

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurvaHagz.Models.App", "CurvaHagz.Models.App.csproj", "{EB261F1B-1381-4BB1-9980-97222387550D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurvaHagz.Data.App", "..\ForzaHagz.Data.App\CurvaHagz.Data.App.csproj", "{36326980-AF72-4C6D-8C41-59FD0BD7C8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurvaHagz.Bussines.App", "..\CurvaHagz.Bussines.App\CurvaHagz.Bussines.App.csproj", "{6666E72C-BBF2-4703-A5B8-F38C0DFFCBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurvaHAgz.Web.App", "..\CurvaHAgz.Web.App\CurvaHAgz.Web.App.csproj", "{2F78284E-F743-4B3E-9479-E22DA965493A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB261F1B-1381-4BB1-9980-97222387550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB261F1B-1381-4BB1-9980-97222387550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB261F1B-1381-4BB1-9980-97222387550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB261F1B-1381-4BB1-9980-97222387550D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36326980-AF72-4C6D-8C41-59FD0BD7C8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36326980-AF72-4C6D-8C41-59FD0BD7C8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36326980-AF72-4C6D-8C41-59FD0BD7C8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36326980-AF72-4C6D-8C41-59FD0BD7C8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6666E72C-BBF2-4703-A5B8-F38C0DFFCBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6666E72C-BBF2-4703-A5B8-F38C0DFFCBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6666E72C-BBF2-4703-A5B8-F38C0DFFCBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6666E72C-BBF2-4703-A5B8-F38C0DFFCBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F78284E-F743-4B3E-9479-E22DA965493A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F78284E-F743-4B3E-9479-E22DA965493A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F78284E-F743-4B3E-9479-E22DA965493A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F78284E-F743-4B3E-9479-E22DA965493A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
