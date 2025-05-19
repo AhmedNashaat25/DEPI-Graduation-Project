@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curva Hagz | Football Playground Booking</title>
+    <meta name="description" content="Book Playgrounds, organize matches, and manage your football team easily with PlayZone." />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+        <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/style.css" />
+    <!-- Font Faamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="loading">
+      <div class="animation">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </div>
+
+    <div class="header" id="header">
+      <div class="time">
+        <i class="fa-regular fa-clock"></i>
+        <p>Time: Saturday - Thursday { 10am - 12pm }</p>
+      </div>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="landing-page">
+      <div class="container">
+        <div class="nav">
+          <div class="logo">
+            <i class="fa-solid fa-dumbbell"></i>
+            <p>Curva <span>Hagz</span></p>
+          </div>
+          <div class="links">
+            <ul id="menu">
+              <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+              <a asp-controller="Home" asp-action="Index"><li>home</li></a>
+              <a asp-controller="Home" asp-action="About" ><li>about us</li></a>
+              <a asp-controller="Home" asp-action="Contact"><li>contact</li></a>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">Profile</a>
+          </div>
+        </div>
+        <div class="main-page">
+          <div class="text reveal reveal-left">
+            <h1>Book Your Football <span>Playground</span></h1>
+            <p>
+              PlayZone helps you find, book, and manage football fields across your city. Whether you play casually or organize matches, we've got you covered.
+            </p>
+            <a href="#features">Explore Features</a>
+          </div>
+          <div class="image reveal reveal-right">
+            <img src="Images/bg-3.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <span class="scroll">
+      <i class="fa-solid fa-arrow-up"></i>
+    </span>
+
+    <script src="~/js/script.js"></script>
+
+    <script>
+      // document.body.classList.toggle("darkmode");
+    </script>
+  </body>
+</html>

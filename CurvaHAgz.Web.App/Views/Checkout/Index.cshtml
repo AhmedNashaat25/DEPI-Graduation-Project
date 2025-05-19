@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trible A | Gymnastic" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/signup.css" />
+    <!-- Font Faamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+          rel="stylesheet" />
+    <title>Trible A | Gymnastic | Checkout</title>
+    <style>
+        .checkout-summary {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+            .checkout-summary h2 {
+                color: var(--items-color);
+                margin-bottom: 20px;
+                font-size: 28px;
+                text-transform: capitalize;
+            }
+
+            .checkout-summary p {
+                margin: 12px 0;
+                font-size: 18px;
+                color: white;
+            }
+
+                .checkout-summary p strong {
+                    color: var(--items-color);
+                    margin-right: 5px;
+                }
+
+            .checkout-summary .btn-primary {
+                background-color: var(--items-color);
+                color: white;
+                border: none;
+                padding: 12px 30px;
+                border-radius: 20px;
+                font-size: 16px;
+                text-transform: capitalize;
+                cursor: pointer;
+                transition: 0.3s;
+                margin-top: 20px;
+            }
+
+                .checkout-summary .btn-primary:hover {
+                    background-color: var(--hover-items-color);
+                }
+
+        .payment-info {
+            background-color: rgba(20, 20, 20, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+            .payment-info p {
+                font-size: 14px;
+                color: var(--text-color);
+            }
+
+        .secure-payment {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+            .secure-payment i {
+                color: var(--items-color);
+                margin-right: 8px;
+                font-size: 18px;
+            }
+
+            .secure-payment span {
+                color: var(--text-color);
+                font-size: 14px;
+            }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="time">
+            <i class="fa-solid fa-futbol"></i>
+            <p>Curva Hagz</p>
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="landing-page">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="links">
+                    <ul id="menu">
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                        <a asp-controller="Home" asp-action="Index">
+                        <li>home</li></a>
+                        <a asp-controller="Home" asp-action="About">
+                        <li>about us</li></a>
+                        <a asp-controller="Home" asp-action="Contact">
+                        <li>contact</li></a>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">Profile</a>
+                </div>
+            </div>
+            <div class="content reveal reveal-bottom">
+                <h1>checkout</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="form signup">
+        <div class="container">
+            <div class="form-out">
+                <div class="checkout-summary">
+                    <h2>Complete Your Payment</h2>
+                    <p><strong>Total Amount:</strong> @ViewBag.DollarAmount EGP</p>
+                    <p><strong>Session Duration:</strong> @ViewBag.TotalDuration hours</p>
+
+                    <form asp-action="CreateCheckoutSession" method="post">
+                        <button type="submit" class="btn-primary">Pay Now</button>
+                    </form>
+
+                    <div class="payment-info">
+                        <p>By proceeding with payment, you agree to our terms and conditions.</p>
+                        <div class="secure-payment">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Secure Payment Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field full-width">
+                        <a href="javascript:history.back()" style="display: block; text-align: center; margin-top: 15px; color: var(--text-color);">
+                            <i class="fa-solid fa-arrow-left"></i> Back to Previous Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="about reveal reveal-left">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="info">
+                    <p>
+                        Welcome to Triple A, where your fitness journey begins! At Triple
+                        A. Join us today and unleash your full potential at Triple A!
+                    </p>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>FCI-KFSU-KFS-EGY</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+20) 127 489 2442</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-links reveal reveal-left">
+                <h3>quick links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="index.html">home</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="about.html">about us</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">classes</a>
+                </div>
+            </div>
+            <div class="useful-links reveal reveal-right">
+                <h3>useful links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">privacy policy</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">term & conditions</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">elements</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">support</a>
+                </div>
+            </div>
+            <div class="newsletter reveal reveal-right">
+                <h3>newsletter</h3>
+                <p>
+                    Stay informed and inspired with our newsletter, exciting updates,
+                    and special offers delivered straight to your inbox.
+                </p>
+                <form action="#">
+                    <input type="email"
+                           id="email"
+                           placeholder="Email Address"
+                           autocomplete="on" />
+                    <input type="submit" value="subscribe" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright &copy; curva hagz a 2025 all rights reserved</p>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="~/js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curva Hagz | Football Pitch Booking" />
+    <title>Curva Hagz | About Us</title>
+    <link rel="images" type="image/png" href="images/favicon.png" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/about.css" />
+    <!-- Font Faamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+          rel="stylesheet" />
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="header" id="header">
+        <div class="time">
+            <i class="fa-regular fa-futbol-ball"></i>
+            <p>Curva Hagz</p>
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="landing-page">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="links">
+                    <ul id="menu">
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                        <a asp-controller="Home" asp-action="Index">
+                        <li>home</li></a>
+                        <a asp-controller="Home" asp-action="About">
+                        <li>about us</li></a>
+                        <a asp-controller="Home" asp-action="Contact">
+                        <li>contact</li></a>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">Profile</a>
+                </div>
+            </div>
+            <div class="content reveal reveal-bottom">
+                <h1>about us</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-gym">
+        <div class="container">
+            <div class="text reveal reveal-left">
+                <h2>About Curva Hagz</h2>
+                <p>
+                    Curva Hagz is Egypt’s go-to platform for football pitch booking. We
+                    help players discover, book, and organize games easily across
+                    multiple cities.
+                </p>
+                <p>
+                    Our features include pitch availability, women-only filtering, team
+                    management, match scheduling, and more — all in one seamless
+                    experience.
+                </p>
+            </div>
+            <div class="image reveal reveal-right">
+                <img src="images/bg-1.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="leaders">
+        <div class="section-heading reveal reveal-bottom">
+            <h2>our organizers</h2>
+            <p>
+                Meet the active pitch managers and football organizers that help make
+                Curva Hagz run smoothly.
+            </p>
+        </div>
+        <div class="container">
+            <div class="lead reveal reveal-left">
+                <img src="Images/girl1.png" alt="image" />
+                <h3>Ahmed Nashaat</h3>
+                <p>organizer</p>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="lead reveal reveal-right">
+                <img src="Images/abdelrahman.JPG" alt="image" />
+                <h3>Abdelrahman Haroun</h3>
+                <p>organizer</p>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="lead">
+                <img src="Images/girl2.png" alt="image" />
+                <h3>Faissal Mahmoud</h3>
+                <p>organizer</p>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="we-best">
+        <div class="container">
+            <div class="text reveal reveal-left">
+                <div class="section-heading">
+                    <p>why choose us</p>
+                    <h2>Why CUrva Hagz?</h2>
+                    <p>
+                        We’re redefining how football is played, booked, and managed — for
+                        individuals, teams, and organizers.
+                    </p>
+                </div>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-name">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <h3>Local Insight</h3>
+                        </div>
+                        <p>
+                            Features tailored to local culture, languages, and sports
+                            habits.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-name">
+                            <i class="fa-regular fa-stars"></i>
+                            <h3>Owner Empowerment</h3>
+                        </div>
+                        <p>
+                            Tools for managing fields, payments, and performance easily.
+                        </p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-name">
+                            <i class="fa-regular fa-clock"></i>
+                            <h3>Community Engagement</h3>
+                        </div>
+                        <p>Supports teams, tournaments, and player interaction.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-name">
+                            <i class="fa-duotone fa-user-hair-mullet"></i>
+                            <h3>Secure Platform</h3>
+                        </div>
+                        <p>Reliable data protection and safe, verified transactions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image reveal reveal-right">
+                <img src="~/Images/bg-2.jpg" alt="image" />
+            </div>
+        </div>
+    </div>
+
+    <div class="classes">
+        <div class="section-heading reveal reveal-bottom">
+            <h2>Our Features</h2>
+            <p>
+                Discover the powerful tools available on Curva Hagz to organize and
+                enjoy your football experience.
+            </p>
+        </div>
+        <div class="container">
+            <div class="class reveal reveal-left">
+                <div class="class-name">
+                    <i class="fa-solid fa-grid-round-4"></i>
+                    <h3>Pitch Availability</h3>
+                </div>
+                <p>
+                    Browse and check the availability of football pitches in real time
+                    before booking.
+                </p>
+            </div>
+            <div class="class reveal reveal-right">
+                <div class="class-name">
+                    <i class="fa-solid fa-people-group"></i>
+                    <h3>Team Management</h3>
+                </div>
+                <p>
+                    Create your team, assign roles, and keep track of matches and
+                    statistics in one place.
+                </p>
+            </div>
+            <div class="class reveal reveal-left">
+                <div class="class-name">
+                    <i class="fa-light fa-person-dress"></i>
+                    <h3>Women-Only Pitches</h3>
+                </div>
+                <p>
+                    Filter and book pitches that support safe and private women's-only
+                    time slots.
+                </p>
+            </div>
+            <div class="class reveal reveal-right">
+                <div class="class-name">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3>Match Scheduling</h3>
+                </div>
+                <p>
+                    Plan upcoming games and training sessions using our intuitive
+                    scheduling system.
+                </p>
+            </div>
+            <div class="class reveal reveal-left">
+                <div class="class-name">
+                    <i class="fa-solid fa-whistle"></i>
+                    <h3>Referee Booking</h3>
+                </div>
+                <p>
+                    Add certified referees to your matches for more competitive or
+                    official games.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="about reveal reveal-left">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="info">
+                    <p>
+                        Welcome to Curva Hagz — your football pitch reservation and team
+                        management hub.
+                    </p>
+                    <div class="contact-info">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>FCI-KFSU-KFS-EGY</p>
+                        </div>
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(+20) 127 489 2442</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-links reveal reveal-left">
+                <h3>quick links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="index.html">home</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#header">about us</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">classes</a>
+                </div>
+            </div>
+            <div class="useful-links reveal reveal-right">
+                <h3>useful links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">privacy policy</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">term & conditions</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">elements</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">support</a>
+                </div>
+            </div>
+            <div class="newsletter reveal reveal-right">
+                <h3>newsletter</h3>
+                <p>
+                    Stay informed and inspired with our newsletter, exciting updates,
+                    and special offers delivered straight to your inbox.
+                </p>
+                <form action="#">
+                    <input type="email"
+                           name="email"
+                           id="email"
+                           placeholder="Email Address"
+                           autocomplete="on" />
+                    <input type="submit" value="subscribe" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright &copy; Curva Hagz 2025 all rights reserved</p>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <span class="scroll">
+        <i class="fa-solid fa-arrow-up"></i>
+    </span>
+
+    <script src="~/js/about.js"></script>
+</body>
+</html>

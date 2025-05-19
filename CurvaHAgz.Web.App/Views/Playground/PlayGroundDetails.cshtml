@@ -1,0 +1,644 @@
+﻿@model PlaygroundDetailsVm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trible A | Gymnastic" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+    href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/playground-details.css" />
+    <!-- Font Faamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+    rel="stylesheet" />
+    <title>Trible A | Gymnastic | Account</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="time">
+            <i class="fa-solid fa-futbol"></i>
+            <p>Curva Hagz</p>
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="landing-page">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="links">
+                    <ul id="menu">
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                        <a asp-controller="Home" asp-action="Index">
+                        <li>home</li></a>
+                        <a asp-controller="Home" asp-action="About">
+                        <li>about us</li></a>
+                        <a asp-controller="Home" asp-action="Contact">
+                        <li>contact</li></a>
+                        @if ((int)ViewBag.Owner == 0)
+                        {
+                            <a href="../Teams/TeamInfo">
+                            <li>Teams</li></a>
+                        }
+                        @if ((int)ViewBag.Owner == 0)
+                        {
+                            <a href="../Playground/GetAll">
+                            <li>Playgrounds</li></a>
+                        }
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">profile</a>
+                </div>
+            </div>
+            <div class="content reveal reveal-bottom">
+                <h1>Playgrounds</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="playground-details">
+        <div class="container">
+            <div class="gallery-section reveal reveal-left">
+                <div class="main-image">
+                    <img src="~/Images/bg-1.jpg"
+                    alt="Playground Main Image"
+                    id="main-image" />
+                </div>
+                <div class="thumbnail-images">
+                    <img src="~/Images/bg-1.jpg"
+                    alt="Thumbnail 1"
+                    class="thumbnail active"
+                    onclick="changeImage(this, '/api/placeholder/800/450')" />
+                    <img src="~/Images/bg-1.jpg"
+                    alt="Thumbnail 2"
+                    class="thumbnail"
+                    onclick="changeImage(this, '/api/placeholder/800/450')" />
+                    <img src="~/Images/bg-1.jpg"
+                    alt="Thumbnail 3"
+                    class="thumbnail"
+                    onclick="changeImage(this, '/api/placeholder/800/450')" />
+                    <img src="~/Images/bg-1.jpg"
+                    alt="Thumbnail 4"
+                    class="thumbnail"
+                    onclick="changeImage(this, '/api/placeholder/800/450')" />
+                </div>
+            </div>
+            
+            <div class="info-booking-section">
+                <div class="info-section reveal reveal-right">
+                    <div class="playground-header">
+                        <div class="name-rating">
+                            <h2 id="info-name">@Model.PlaygroundName</h2>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <span>4.8 (126 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="price-tag">
+                            <span class="price">@Model.HourlyPrice EGP</span>
+                            <span class="period">/hour</span>
+                        </div>
+                    </div>
+
+                    <div class="info-details">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span id="location">@Model.City, @Model.Government,@Model.Address</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span id="phone">+2@(Model.ContactNumber)</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-clock"></i>
+                            <span id="hours">Opening Hours: @Model.OpeningHour  - @Model.ClosingHour </span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-ban"></i>
+                            <span id="cancel">You Can Cancel The Booking Up To @(Model.CancelationPolicy*24) Hours (@Model.CancelationPolicy Days)</span>
+                        </div>
+                    </div>
+
+                    <div class="features">
+                        <h3>Features</h3>
+                        <div class="feature-items">
+                            @if (Model.Feature1 != null)
+                            {
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature1</span>
+                                </div>
+                            }
+                            @if (Model.Feature2 != null)
+                            {
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature2</span>
+                                </div>
+                            }
+                            @if (Model.Feature3 != null)
+                            {
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature3</span>
+                                </div>
+                            }
+                            @if (Model.Feature4 != null)
+                            {
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature4</span>
+                                </div>
+                            }
+                            @if (Model.Feature5 != null)
+                            {
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature5</span>
+                                </div>
+                            }
+                            @if(Model.Feature6!=null)
+                            {
+                                <div class="feature-item)">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>@Model.Feature6</span>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p id="description-text">@Model.Description</p>
+                    </div>
+                </div>
+                @if((int)ViewBag.Owner == 0)
+                {
+                <div class="booking-section reveal reveal-bottom">
+                    <div class="booking-form">
+                        <h3>Book This Playground</h3>
+                        <form asp-controller="Playground" asp-action="BookPlayground" method="POST" id="booking-form">
+                            <input type="hidden" asp-for="PlaygroundId" />
+                                @{
+                                    var today = DateTime.Now.ToString("yyyy-MM-dd");
+                                }
+                                <div class="form-group">
+                                    <label asp-for="BookingDate">Select Date</label>
+                                    <input asp-for="BookingDate" type="date" min="@today" value="@today" required />
+                                    <span asp-validation-for="BookingDate" class="text-danger"></span>
+                                </div>
+
+
+
+                            <div class="form-group">
+                                <label for="booking-time">Select Time</label>
+                                <select id="booking-time" asp-for="BookingTimeHour" required>
+                                    @{
+                                        TimeSpan startHour = Model.OpeningHour;
+                                        TimeSpan endHour = Model.ClosingHour;
+                                        int i = startHour.Hours;
+                                        do
+                                        {
+                                            <option value="@i">@i:00</option>
+                                            i = (i + 1) % 24;
+                                        } while (i != endHour.Hours);
+                                    }
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Duration">Duration (hours)</label>
+                                <select asp-for="Duration" required>
+                                    <option value="1">1 hour</option>
+                                    <option value="2">2 hours</option>
+                                    <option value="3">3 hours</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="PlayersNumber">Number of Players</label>
+                                <input asp-for="PlayersNumber" type="number" min="5" max="22" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Notes">Additional Notes</label>
+                                <textarea asp-for="Notes" rows="3" placeholder="Any special requirements?"></textarea>
+                            </div>
+                                <div class="price-calculation">
+                                    <div class="calc-item">
+                                        <span>Base Price</span>
+                                        <span>
+                                            <span class="clr">@Model.HourlyPrice EGP</span> x
+                                            <span id="hours-count" class="clr">1</span> hour(s)
+                                        </span>
+                                    </div>
+                                </div>
+                                @if (TempData["BookingError"] != null)
+                                {
+                                    <div class="clr">
+                                        @TempData["BookingError"]
+                                    </div>
+                                }
+                            <button type="submit" class="book-button">Book Now</button>
+                            </form>
+
+                    </div>
+                </div>
+                }
+            </div>
+
+
+            <div class="availability-section reveal reveal-bottom">
+                <h3>Availability Calendar</h3>
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <button id="prev-month">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <h4 id="current-month">May 2025</h4>
+                        <button id="next-month">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="calendar-grid">
+                        <div class="day-header">Sun</div>
+                        <div class="day-header">Mon</div>
+                        <div class="day-header">Tue</div>
+                        <div class="day-header">Wed</div>
+                        <div class="day-header">Thu</div>
+                        <div class="day-header">Fri</div>
+                        <div class="day-header">Sat</div>
+
+                        <!-- Calendar days will be filled by JavaScript -->
+                        <div class="day empty"></div>
+                        <div class="day empty"></div>
+                        <div class="day empty"></div>
+                        <div class="day empty"></div>
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                        <div class="day">8</div>
+                        <div class="day">9</div>
+                        <div class="day">10</div>
+                        <div class="day today">11</div>
+                        <div class="day">12</div>
+                        <div class="day">13</div>
+                        <div class="day">14</div>
+                        <div class="day">15</div>
+                        <div class="day booked">16</div>
+                        <div class="day">17</div>
+                        <div class="day">18</div>
+                        <div class="day">19</div>
+                        <div class="day">20</div>
+                        <div class="day">21</div>
+                        <div class="day booked">22</div>
+                        <div class="day booked">23</div>
+                        <div class="day">24</div>
+                        <div class="day">25</div>
+                        <div class="day">26</div>
+                        <div class="day">27</div>
+                        <div class="day">28</div>
+                        <div class="day">29</div>
+                        <div class="day">30</div>
+                        <div class="day">31</div>
+                    </div>
+                    <div class="calendar-legend">
+                        <div class="legend-item">
+                            <div class="legend-color today"></div>
+                            <span>Today</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color available"></div>
+                            <span>Available</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color booked"></div>
+                            <span>Booked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-section reveal reveal-bottom">
+                <h3>Reviews</h3>
+                <div class="reviews-summary">
+                    <div class="average-rating">
+                        <div class="rating-number">4.8</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="reviews-count">Based on 126 reviews</div>
+                    </div>
+                    <div class="rating-bars">
+                        <div class="rating-bar-item">
+                            <span>5</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 75%"></div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+                        <div class="rating-bar-item">
+                            <span>4</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 12%"></div>
+                            </div>
+                            <span>12%</span>
+                        </div>
+                        <div class="rating-bar-item">
+                            <span>3</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 7%"></div>
+                            </div>
+                            <span>7%</span>
+                        </div>
+                        <div class="rating-bar-item">
+                            <span>2</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 4%"></div>
+                            </div>
+                            <span>4%</span>
+                        </div>
+                        <div class="rating-bar-item">
+                            <span>1</span>
+                            <div class="bar-container">
+                                <div class="bar" style="width: 2%"></div>
+                            </div>
+                            <span>2%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews-list">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="Images/abdelrahman.jpg"
+                                     alt="User 1"
+                                     class="user-avatar" />
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">John Smith</div>
+                                    <div class="review-date">May 5, 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-text">
+                            Amazing facilities and top-notch turf. The staff was very
+                            friendly and accommodating. Will definitely book again!
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="Images/abdelrahman.jpg"
+                                     alt="User 2"
+                                     class="user-avatar" />
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">Sarah Johnson</div>
+                                    <div class="review-date">April 28, 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-text">
+                            Had a great experience booking this playground for my son's
+                            birthday. Clean changing rooms and great cafeteria options. The
+                            kids loved it!
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="Images/abdelrahman.jpg"
+                                     alt="User 3"
+                                     class="user-avatar" />
+                                <div class="reviewer-details">
+                                    <div class="reviewer-name">Michael Rodriguez</div>
+                                    <div class="review-date">April 23, 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="review-text">
+                            Good playground with nice turf. The only downside was the
+                            parking was a bit limited on match days. Overall a good
+                            experience though.
+                        </div>
+                    </div>
+
+                    <button class="load-more-reviews">Load More Reviews</button>
+                </div>
+            </div>
+
+            <div class="similar-playgrounds reveal reveal-bottom">
+                <h3>Similar Playgrounds</h3>
+                <div class="playgrounds-grid">
+                    <div class="playground-card">
+                        <img src="Images/bg-1.jpg" alt="Manchester Playground" />
+                        <div class="card-info">
+                            <h4>Manchester Playground</h4>
+                            <div class="card-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.6 (98 reviews)</span>
+                            </div>
+                            <div class="card-price">
+                                <span class="price">$55</span>/hour
+                            </div>
+                            <a href="playground-details.html?id=manchester"
+                               class="view-details">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="playground-card">
+                        <img src="Images/bg-1.jpg" alt="Arsenal Playground" />
+                        <div class="card-info">
+                            <h4>Arsenal Playground</h4>
+                            <div class="card-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.7 (112 reviews)</span>
+                            </div>
+                            <div class="card-price">
+                                <span class="price">$65</span>/hour
+                            </div>
+                            <a href="playground-details.html?id=arsenal"
+                               class="view-details">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="playground-card">
+                        <img src="Images/bg-1.jpg" alt="Chelsea Playground" />
+                        <div class="card-info">
+                            <h4>Chelsea Playground</h4>
+                            <div class="card-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <span>4.5 (87 reviews)</span>
+                            </div>
+                            <div class="card-price">
+                                <span class="price">$58</span>/hour
+                            </div>
+                            <a href="playground-details.html?id=chelsea"
+                               class="view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="about reveal reveal-left">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="info">
+                    <p>
+                        Welcome to Triple A, where your fitness journey begins! At Triple
+                        A. Join us today and unleash your full potential at Triple A!
+                    </p>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>FCI-KFSU-KFS-EGY</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+20) 127 489 2442</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-links reveal reveal-left">
+                <h3>quick links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="index.html">home</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="about.html">about us</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">classes</a>
+                </div>
+            </div>
+            <div class="useful-links reveal reveal-right">
+                <h3>useful links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">privacy policy</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">term & conditions</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">elements</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">support</a>
+                </div>
+            </div>
+            <div class="newsletter reveal reveal-right">
+                <h3>newsletter</h3>
+                <p>
+                    Stay informed and inspired with our newsletter, exciting updates,
+                    and special offers delivered straight to your inbox.
+                </p>
+                <form action="#">
+                    <input type="email"
+                           name="email"
+                           id="email"
+                           placeholder="Email Address"
+                           autocomplete="on" />
+                    <input type="submit" value="subscribe" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright &copy; curva hagz a 2025 all rights reserved</p>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <span class="scroll">
+        <i class="fa-solid fa-arrow-up"></i>
+    </span>
+
+    <!-- JavaScript Files -->
+    <script src="~/js/playgrounds-details.js"></script>
+</body>
+</html>

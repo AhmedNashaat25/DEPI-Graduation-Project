@@ -1,0 +1,259 @@
+﻿@model List<GetAllPlaygroundVm>
+@{
+    ViewData["Title"] = "GetAll";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curva Hagz | Playgrounds" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/playgrounds.css" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+          rel="stylesheet" />
+    <title>Curva Hagz | Playgrounds</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="blur">
+        <div class="header" id="header">
+            <div class="time">
+                <i class="fa-solid fa-futbol"></i>
+                <p>Curva Hagz</p>
+            </div>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="landing-page">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Curva <span>Hagz</span></p>
+                    </div>
+                    <div class="links">
+                        <ul id="menu">
+                            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                            <a asp-controller="Home" asp-action="Index">
+                            <li>home</li></a>
+                            <a asp-controller="Home" asp-action="About">
+                            <li>about us</li></a>
+                            <a asp-controller="Home" asp-action="Contact">
+                            <li>contact</li></a>
+                            @if ((int)ViewBag.Owner == 0)
+                            {
+                                <a href="../Teams/TeamInfo">
+                                <li>Teams</li></a>
+                            }
+                            @if ((int)ViewBag.Owner == 0)
+                            {
+                                <a href="../Playground/GetAll">
+                                <li>Playgrounds</li></a>
+                            }
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                        <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">profile</a>
+                    </div>
+                </div>
+                <div class="content reveal reveal-bottom">
+                    <h1>All Playgrounds</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="playgrounds">
+            <div class="container">
+                <div class="section-heading reveal reveal-bottom">
+                    <h2>Discover and Book Your Perfect Playground</h2>
+                </div>
+
+                <div class="filter-options reveal">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search playgrounds..." id="search-input">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="filter-dropdown">
+                        <select id="filter-location">
+                            <option value="@ViewBag.City">@(ViewBag.City)</option>
+                            <option value="">All Locations</option>
+                            <option value="madrid">madrid</option>
+                            <option value="barcelona">barcelona</option>
+                        </select>
+                    </div>
+                    <div class="filter-dropdown">
+                        <select id="filter-type">
+                            <option value="">All Types</option>
+                            <option value="football">Football</option>
+                            <option value="basketball">Basketball</option>
+                            <option value="tennis">Tennis</option>
+                            <option value="volleyball">Volleyball</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="playgrounds-grid">
+
+                    @{
+                        foreach (GetAllPlaygroundVm vm in Model)
+                        {
+                            <div class="playground-card reveal reveal-left" >
+                                <div class="playground-image">
+                                    <img src="~/Images/bg-1.jpg" alt="@vm.PlaygroundName">
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                    </div>
+                                </div>
+                                <div class="playground-info">
+                                    <h3>@vm.PlaygroundName</h3>
+                                    <p class="location"><i class="fa-solid fa-location-dot"></i>@vm.Government</p>
+                                    <div class="details">
+                                        <span><i class="fa-solid fa-users"></i> 5 players</span>
+                                        <span><i class="fa-solid fa-futbol"></i> Football</span>
+                                    </div>
+                                    <div class="price-book">
+                                        <p class="price">$@vm.HourlyPrice<span>/hour</span></p>
+                                        <a class="book-now" asp-controller="Playground" asp-action="PlayGroundDetails" asp-route-PlaygroundId="@vm.PlaygroundId">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+
+
+                </div>
+
+                <div class="pagination reveal reveal-bottom">
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="about reveal reveal-left">
+                    <div class="logo">
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Curva <span>Hagz</span></p>
+                    </div>
+                    <div class="info">
+                        <p>
+                            Welcome to Curva Hagz, where your sports journey begins! Join us today and book your perfect playground at Curva Hagz!
+                        </p>
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>FCI-KFSU-KFS-EGY</p>
+                        </div>
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(+20) 127 489 2442</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-links reveal reveal-left">
+                    <h3>quick links</h3>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="index.html">home</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="about.html">about us</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="contact.html">contact</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#">classes</a>
+                    </div>
+                </div>
+                <div class="useful-links reveal reveal-right">
+                    <h3>useful links</h3>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#">privacy policy</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#">term & conditions</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#">elements</a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <a href="#">support</a>
+                    </div>
+                </div>
+                <div class="newsletter reveal reveal-right">
+                    <h3>newsletter</h3>
+                    <p>
+                        Stay informed and inspired with our newsletter, exciting updates,
+                        and special offers delivered straight to your inbox.
+                    </p>
+                    <form action="#">
+                        <input type="email"
+                               name="email"
+                               id="email"
+                               placeholder="Email Address"
+                               autocomplete="on" />
+                        <input type="submit" value="subscribe" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>copyright &copy; curva hagz 2024 all rights reserved</p>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <span class="scroll">
+        <i class="fa-solid fa-arrow-up"></i>
+    </span>
+
+    <script src="~/js/playgrounds.js"></script>
+</body>
+</html>
+

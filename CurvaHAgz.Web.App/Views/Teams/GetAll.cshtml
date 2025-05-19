@@ -1,0 +1,29 @@
+﻿@model List<TeamGetAllVm>
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+<h1>GetAll</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Team name</th>
+            <th>Team City</th>
+            <th>Captain name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (TeamGetAllVm team in Model)
+            {
+                <tr>
+                <td>@team.TeamName</td>
+                <td>@team.City</td>
+                <td>@team.CaptainName</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<a asp-controller="Teams" asp-action="Create">Create</a>
+

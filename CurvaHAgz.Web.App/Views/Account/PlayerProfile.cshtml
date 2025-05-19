@@ -1,0 +1,588 @@
+﻿@model PlayerProfileVm
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trible A | Gymnastic" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/profile.css" />
+    <!-- Font Faamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+          rel="stylesheet" />
+    <title>Trible A | Gymnastic | Profile</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="blur">
+        <div class="header" id="header">
+            <div class="time">
+                <i class="fa-solid fa-futbol"></i>
+                <p>Curva Hagz</p>
+            </div>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="landing-page">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Curva <span>Hagz</span></p>
+                    </div>
+                    <div class="links">
+                        <ul id="menu">
+                            <a asp-controller="Home" asp-action="Index">
+                            <li>home</li></a>
+                            <a asp-controller="Home" asp-action="About">
+                            <li>about us</li></a>
+                            <a asp-controller="Home" asp-action="Contact">
+                            <li>contact</li></a>
+                            @if (ViewBag.IsOwner == 0)
+                            {
+                                <a href="../Teams/TeamInfo">
+                                <li>Teams</li></a>
+                            }
+                            @if (ViewBag.IsOwner == 0)
+                            {
+                                <a href="../Playground/GetAll">
+                                <li>Playgrounds</li></a>
+                            }
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                        <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">profile</a>
+                    </div>
+                </div>
+                <div class="content reveal reveal-bottom">
+                    <h1>Profile</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="container">
+                <div class="user">
+                    <div class="img reveal reveal-left">
+                        <div class="img reveal reveal-left">
+                            <img src="@Url.Content(Model.ProfileImagePath ?? "~/Images/userphoto.png")"
+                                 alt="Profile Photo"
+                                 width="120"
+                                 height="120"
+                                 style="border-radius: 50%; object-fit: cover;" />
+
+                            <form asp-action="UploadProfilePhoto" asp-controller="Account" method="post" enctype="multipart/form-data">
+                                <label for="ProfileImage">Upload</label>
+                                <input id="ProfileImage" type="file" name="ProfileImage" accept="image/*" required />
+                                <button type="submit">Change</button>
+                            </form>
+                        </div>
+
+                        @*                         <div class="edit">
+        <button class="change" id="change" onclick="fchange()">
+            change
+        </button>
+        <button class="delete" id="delete-tab" onclick="fdelete()">
+            delete
+        </button>
+    </div> *@
+                    </div>
+                    <div class="text reveal reveal-right">
+                        <div class="user_name">
+                            <div class="first_name">@Model.FName</div>
+                            <div class="last_name">@Model.LName</div>
+                        </div>
+                        <div class="log_out">
+                            <form asp-action="LogOut" method="POST">
+                                <button name="out">
+                                    log out <i class="fa-solid fa-right-from-bracket"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="selectors">
+                    <ul class="filter">
+                        <li data-type=".table" class="active type table">settings</li>
+                        <li data-type=".dashboard" class="type dash">dashboard</li>
+                         
+                        <!-- <li data-type=".attendance" class="type attend">attendance</li> -->
+                    </ul>
+                </div>
+                <div class="table box">
+                    <div class="section-heading reveal reveal-bottom">
+                        <h2>settings</h2>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr class="reveal">
+                                <td>email</td>
+                                <td>@Model.Email</td>
+                                <td>
+                                    <button data-tab="email-tab">edit</button>
+                                </td>
+                            </tr>
+                            <tr class="reveal">
+                                <td>fullname</td>
+                                <td>@Model.FullName</td>
+                                <td>
+                                    <button data-tab="username-tab">edit</button>
+                                </td>
+                            </tr>
+                            <tr class="reveal">
+                                <td>phone number</td>
+                                <td>@Model.Phone</td>
+                                <td>
+                                    <button data-tab="phone-tab">edit</button>
+                                </td>
+                            </tr>
+                            <tr class="reveal">
+                                <td>password</td>
+                                <td>***********</td>
+                                <td>
+                                    <button data-tab="password-tab">edit</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="delete_acc">
+                        <button id="delete_acc" onclick="deleteacc()">
+                            delete account
+                        </button>
+                    </div>
+                </div>
+                <div class="dashboard box" style="display: none">
+                    <div class="section-heading ">
+                        <h2>dashboard</h2>
+                    </div>
+                    @{
+                        if (ViewBag.IsOwner == 0)
+                        {
+                            <table>
+                                <thead>
+                                <td>#</td>
+                                <td>playground Name</td>
+                                <td>date</td>
+                                <td>Duration</td>
+                                <td>Total price</td>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int i = 1;
+                                    }
+                                    @foreach (var Booking in Model.PlayerBookings)
+                                    {
+                                        <tr class="reveal">
+                                            <td>@i</td>
+                                            <td>@Booking.Playground.PlaygroundName</td>
+                                            <td>@Booking.StartTime</td>
+                                            <td>
+                                                @((Booking.EndTime.Hour >= Booking.StartTime.Hour)
+                                                ? (Booking.EndTime.Hour - Booking.StartTime.Hour)
+                                                : (Booking.EndTime.Hour - Booking.StartTime.Hour + 24))
+                                            </td>
+                                            <td>@Booking.TotalPrice</td>
+                                        </tr>
+                                        i++;
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            int i = 1;
+                            <table>
+                                <thead>
+                                <td>#</td>
+                                <td>playground name</td>
+                                <td>playground city</td>
+                                <td> </td>
+                                <td> </td>
+                                </thead>
+                                @foreach (var model in Model.OwnerPlaygrounds)
+                                {
+                                    <tbody>
+                                        <tr class="reveal">
+                                            <td>@i</td>
+                                            <td>@(model.PlaygroundName)</td>
+                                            <td>@(model.City)</td>
+                                            <td>
+                                                <div class="delete_acc">
+                                                    <a href="../Playground/PlayGroundDetails?PlaygroundId=@(model.PlaygroundId)" id="delete_acc">
+                                                        Details
+                                                    </a>
+                                            </td>
+                                            <td>
+                                                <div class="delete_acc">
+                                                    <a asp-controller="Playground" asp-action="Update" asp-route-PlaygroundId="@(model.PlaygroundId)" id="delete_acc">
+                                                        Update
+                                                    </a>
+
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    i++;
+                                }
+                            </table>
+                            <div class="delete_acc">
+                                <a href="../Playground/Add" id="delete_acc">
+                                    Add Playground
+                                </a>
+                            </div>
+                        }
+                    }
+
+                    <div class="attendance box" id="progresses" style="display: none">
+                        <div class="section-heading">
+                            <h2>attendance</h2>
+                        </div>
+                        <div class="progresses">
+                            <div class="progress reveal reveal-left">
+                                <div class="circle-progress">
+                                    <span class="progress-value" data-prog="30">0%</span>
+                                </div>
+                                <p>program</p>
+                            </div>
+                            <div class="progress">
+                                <div class="circle-progress">
+                                    <span class="progress-value" data-prog="70">0%</span>
+                                </div>
+                                <p>class</p>
+                            </div>
+                            <div class="progress reveal reveal-right">
+                                <div class="circle-progress">
+                                    <span class="progress-value" data-prog="100">0%</span>
+                                </div>
+                                <p>attendance</p>
+                            </div>
+                        </div>
+                        <table>
+                            <thead>
+                            <td>#</td>
+                            <td>program / class</td>
+                            <td>session number</td>
+                            <td>date</td>
+                            </thead>
+                            <tbody>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                                <tr class="reveal">
+                                    <td>1</td>
+                                    <td>yoga</td>
+                                    <td>3</td>
+                                    <td>10/8/2004</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="about reveal reveal-left">
+                        <div class="logo">
+                            <i class="fa-solid fa-futbol"></i>
+                            <p>Curva <span>Hagz</span></p>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Welcome to Triple A, where your fitness journey begins! At
+                                Triple A. Join us today and unleash your full potential at
+                                Triple A!
+                            </p>
+                            <div class="location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>FCI-KFSU-KFS-EGY</p>
+                            </div>
+                            <div class="phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>(+20) 127 489 2442</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quick-links reveal reveal-left">
+                        <h3>quick links</h3>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="index.html">home</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="about.html">about us</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="contact.html">contact</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="#">classes</a>
+                        </div>
+                    </div>
+                    <div class="useful-links reveal reveal-right">
+                        <h3>useful links</h3>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="#">privacy policy</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="#">term & conditions</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="#">elements</a>
+                        </div>
+                        <div class="link">
+                            <i class="fa-solid fa-angle-right"></i>
+                            <a href="#">support</a>
+                        </div>
+                    </div>
+                    <div class="newsletter reveal reveal-right">
+                        <h3>newsletter</h3>
+                        <p>
+                            Stay informed and inspired with our newsletter, exciting updates,
+                            and special offers delivered straight to your inbox.
+                        </p>
+                        <form action="#">
+                            <input type="email"
+                                   name="email"
+                                   id="email"
+                                   placeholder="Email Address"
+                                   autocomplete="on" />
+                            <input type="submit" value="subscribe" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>copyright &copy; triple a 2024 all rights reserved</p>
+                <div class="social-media">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </footer>
+        </div>
+
+        <div class="edit_tabs">
+            <div class="email-tab tab">
+                <div class="section-heading">
+                    <h2>change email</h2>
+                </div>
+                <form action="#" method="POST">
+                    <label for="new-email">new email</label>
+                    <input type="text"
+                           name="new-email"
+                           id="new-email"
+                           placeholder="Enter the new email" />
+                    <label for="password-tab">password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="password"
+                               id="password-tab"
+                               placeholder="Enter the password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-3"></i>
+                    </div>
+                    <div class="btns">
+                        <div class="button" data-close="email-tab">cancel</div>
+                        <input type="submit" name="sub-email" value="edit" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="phone-tab tab">
+                <div class="section-heading">
+                    <h2>change phone number</h2>
+                </div>
+                <form action="#" method="POST">
+                    <label for="new-phone">new phone number</label>
+                    <input type="number"
+                           name="new-phone"
+                           id="new-phone"
+                           placeholder="Enter the new phone number" />
+                    <label for="password-tab">password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="password"
+                               id="password-tab"
+                               placeholder="Enter the password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-4"></i>
+                    </div>
+                    <div class="btns">
+                        <div class="button" data-close="phone-tab">cancel</div>
+                        <input type="submit" name="sub-phone" value="edit" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="username-tab tab">
+                <div class="section-heading">
+                    <h2>change fullname</h2>
+                </div>
+                <form action="#" method="POST">
+                    <label for="new-username">new fullname</label>
+                    <input type="text"
+                           name="new-username"
+                           id="new-username"
+                           placeholder="Enter the new fullname" />
+                    <label for="password-tab">password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="password"
+                               id="password-tab"
+                               placeholder="Enter the password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-5"></i>
+                    </div>
+                    <div class="btns">
+                        <div class="button" data-close="username-tab">cancel</div>
+                        <input type="submit" name="sub-username" value="edit" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="password-tab tab">
+                <div class="section-heading">
+                    <h2>change password</h2>
+                </div>
+                <form action="#" method="POST">
+                    <label for="password-old">old password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="password-old"
+                               id="password-old"
+                               placeholder="Enter the old password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-0"></i>
+                    </div>
+                    <label for="password-new">new password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="new-password"
+                               id="password-new"
+                               placeholder="Enter the new password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-1"></i>
+                    </div>
+                    <label for="password-confirm">confirm new password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="confirm-new-password"
+                               id="password-confirm"
+                               placeholder="Confirm the new password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-2"></i>
+                    </div>
+                    <div class="btns">
+                        <div class="button" data-close="password-tab">cancel</div>
+                        <input type="submit" name="sub-password" value="edit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="change-delete">
+            <div class="delete-photo-tab tab" id="delete">
+                <form action="#" method="post">
+                    <i class="fa-solid fa-user-xmark"></i>
+                    <p>are you sure that you wonna delete your photo?</p>
+                    <div class="btns">
+                        <div class="button" data-close="delete-photo-tab">cancel</div>
+                        <input type="submit" name="delete-photo" value="delete" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="delete-account-tab tab" id="delete-account">
+                <form action="#" method="post">
+                    <i class="fa-solid fa-user-slash"></i>
+                    <p>are you sure that you wonna delete your account?</p>
+                    <label for="password-del-acc">password</label>
+                    <div class="pass-feild">
+                        <input type="password"
+                               name="password"
+                               id="password-del-acc"
+                               placeholder="Enter the password" />
+                        <i class="fa-solid fa-eye-slash eye" id="eye-6"></i>
+                    </div>
+                    <div class="btns">
+                        <div class="button" data-close="delete-account-tab">cancel</div>
+                        <input type="submit" name="delete-account" value="delete" />
+                    </div>
+                </form>
+            </div>
+
+            <div class="change-photo-tab tab" id="submit">
+                <i class="fa-solid fa-id-badge"></i>
+                <form action="#" method="post">
+                    <p>confirm the new photo!</p>
+                    <div class="btns">
+                        <div class="button" data-close="change-photo-tab">cancel</div>
+                        <input type="submit" name="change-photo" value="confirm" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <span class="scroll">
+            <i class="fa-solid fa-arrow-up"></i>
+        </span>
+
+        <script src="~/js/profile.js"></script>
+</body>
+</html>

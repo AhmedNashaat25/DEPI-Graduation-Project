@@ -1,0 +1,480 @@
+﻿@model AddPlaygroundVm
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trible A | Gymnastic" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <!-- slider css -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
+    <!-- Web Fonts File -->
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css" />
+    <link rel="stylesheet"
+          href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css" />
+    <!-- CSS Main File -->
+    <link rel="stylesheet" href="~/css/add-playground.css" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+          rel="stylesheet" />
+    <title>Curva Hagz | Add Playground</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="animation">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="time">
+            <i class="fa-solid fa-futbol"></i>
+            <p>Curva Hagz</p>
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="landing-page">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="links">
+                    <ul id="menu">
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                        <a asp-controller="Home" asp-action="Index">
+                        <li>home</li></a>
+                        <a asp-controller="Home" asp-action="About">
+                        <li>about us</li></a>
+                        <a asp-controller="Home" asp-action="Contact">
+                        <li>contact</li></a>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <a asp-controller="Account" asp-action="PlayerProfile" class="profile-button">Profile</a>
+                </div>
+            </div>
+            <div class="content reveal reveal-bottom">
+                <h1>add playground</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="form add-playground">
+        <div class="container">
+            <div class="form-out">
+                <h3>add playground</h3>
+                <div class="progress-bar">
+                    <div class="step">
+                        <p>basic info</p>
+                        <div class="bullet">
+                            <i class="check fas fa-check"></i>
+                            <span>1</span>
+                        </div>
+                    </div>
+                    <span class="line-1"></span>
+                    <div class="step">
+                        <p>dimensions</p>
+                        <div class="bullet">
+                            <i class="check fas fa-check"></i>
+                            <span>2</span>
+                        </div>
+                    </div>
+                    <span class="line-2"></span>
+                    <div class="step">
+                        <p>booking</p>
+                        <div class="bullet">
+                            <i class="check fas fa-check"></i>
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <span class="line-3"></span>
+                    <div class="step">
+                        <p>features</p>
+                        <div class="bullet">
+                            <i class="check fas fa-check"></i>
+                            <span>4</span>
+                        </div>
+                    </div>
+                </div>
+                <form asp-controller="Playground" asp-action="Add" method="post">
+                    <div class="form-cont">
+                        <div class="pages">
+                            <!-- Page 1: Basic Info -->
+                            <div class="page side-page">
+                                <h4>basic information:</h4>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <label for="playground-name">playground name</label>
+                                        <input type="text"
+                                               asp-for="PlaygroundName"
+                                               id="playground-name"
+                                               placeholder="Enter playground name" />
+                                        <span class="validation" asp-validation-for="PlaygroundName"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="gov">government</label>
+                                        <select asp-for="Government" id="gov">
+                                            <option value="alexandria">Alexandria</option>
+                                            <option value="elbeheira">Elbeheira</option>
+                                            <option value="kafrelsheikh">Kafrelsheikh</option>
+                                        </select>
+                                        <span class="validation" asp-validation-for="Government"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="city">city</label>
+                                        <input type="text"
+                                               asp-for="City"
+                                               id="city"
+                                               placeholder="Enter city" />
+                                        <span class="validation" asp-validation-for="City"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <label for="address">address</label>
+                                        <input type="text"
+                                               asp-for="Address"
+                                               id="address"
+                                               placeholder="Enter full address" />
+                                        <span class="validation" asp-validation-for="Address"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <label for="surface-type">surface type</label>
+                                        <select asp-for="SurfaceType" id="surface-type">
+                                            <option value="grass">Natural Grass</option>
+                                            <option value="artificial">Artificial Turf</option>
+                                            <option value="indoor">Indoor</option>
+                                            <option value="concrete">Concrete</option>
+                                            <option value="clay">Clay</option>
+                                        </select>
+                                        <span class="validation" asp-validation-for="SurfaceType"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <p class="next-btn">next</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 2: Dimensions -->
+                            <div class="page">
+                                <h4>dimensions info:</h4>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="width">width (meters)</label>
+                                        <input type="number"
+                                               asp-for="Width"
+                                               id="width"
+                                               step="0.01"
+                                               placeholder="Enter width" />
+                                        <span class="validation" asp-validation-for="Width"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="length">length (meters)</label>
+                                        <input type="number"
+                                               asp-for="Length"
+                                               id="length"
+                                               step="0.01"
+                                               placeholder="Enter length" />
+                                        <span class="validation" asp-validation-for="Length"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="opening-hour">opening hour</label>
+                                        <input type="time"
+                                               asp-for="OpeningHour"
+                                               id="opening-hour" />
+                                        <span class="validation" asp-validation-for="OpeningHour"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="closing-hour">closing hour</label>
+                                        <input type="time"
+                                               asp-for="ClosingHour"
+                                               id="closing-hour" />
+                                        <span class="validation" asp-validation-for="ClosingHour"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <p style="margin-bottom: 5px">Available for women</p>
+                                        <div class="gender-field">
+                                            <div class="gender owner">
+                                                <input type="radio"
+                                                       asp-for="AvailableForWomen"
+                                                       id="women-yes"
+                                                       value="Yes" />
+                                                <label for="women-yes">Yes</label>
+                                            </div>
+                                            <div class="gender owner">
+                                                <input type="radio"
+                                                       asp-for="AvailableForWomen"
+                                                       id="women-no"
+                                                       value="No"
+                                                       checked="checked" />
+                                                <label for="women-no">No</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <p class="prev-1">prev</p>
+                                    </div>
+                                    <div class="field">
+                                        <p class="next-1">next</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 3: Booking -->
+                            <div class="page">
+                                <h4>booking info:</h4>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="hourly-price">hourly price (EGP)</label>
+                                        <input type="number"
+                                               asp-for="HourlyPrice"
+                                               id="hourly-price"
+                                               step="0.01"
+                                               placeholder="Enter hourly price" />
+                                        <span class="validation" asp-validation-for="HourlyPrice"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="deposit-amount">deposit amount (EGP)</label>
+                                        <input type="number"
+                                               asp-for="DepositeAmount"
+                                               id="deposit-amount"
+                                               step="0.01"
+                                               placeholder="Enter deposit amount" />
+                                        <span class="validation" asp-validation-for="DepositeAmount"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="cancel-policy">cancellation policy (hours)</label>
+                                        <input type="number"
+                                               asp-for="CancelationPolicy"
+                                               id="cancel-policy"
+                                               placeholder="Hours before booking" />
+                                        <span class="validation" asp-validation-for="CancelationPolicy"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-number">contact number</label>
+                                        <input type="tel"
+                                               asp-for="ContactNumber"
+                                               id="contact-number"
+                                               placeholder="Enter contact number" />
+                                        <span class="validation" asp-validation-for="ContactNumber"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field full-width">
+                                        <label for="description">description</label>
+                                        <textarea asp-for="Description"
+                                                  id="description"
+                                                  placeholder="Enter playground description"
+                                                  rows="4"></textarea>
+                                        <span class="validation" asp-validation-for="Description"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <p class="prev-2">prev</p>
+                                    </div>
+                                    <div class="field">
+                                        <p class="next-2">next</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Page 4: Features -->
+                            <div class="page">
+                                <h4>features:</h4>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="feature1">feature 1</label>
+                                        <input type="text"
+                                               asp-for="Feature1"
+                                               id="feature1"
+                                               placeholder="E.g., Floodlights" />
+                                        <span class="validation" asp-validation-for="Feature1"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="feature2">feature 2</label>
+                                        <input type="text"
+                                               asp-for="Feature2"
+                                               id="feature2"
+                                               placeholder="E.g., Changing rooms" />
+                                        <span class="validation" asp-validation-for="Feature2"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="feature3">feature 3</label>
+                                        <input type="text"
+                                               asp-for="Feature3"
+                                               id="feature3"
+                                               placeholder="E.g., Shower facilities" />
+                                        <span class="validation" asp-validation-for="Feature3"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="feature4">feature 4</label>
+                                        <input type="text"
+                                               asp-for="Feature4"
+                                               id="feature4"
+                                               placeholder="E.g., Parking" />
+                                        <span class="validation" asp-validation-for="Feature4"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <label for="feature5">feature 5</label>
+                                        <input type="text"
+                                               asp-for="Feature5"
+                                               id="feature5"
+                                               placeholder="E.g., Cafeteria" />
+                                        <span class="validation" asp-validation-for="Feature5"></span>
+                                    </div>
+                                    <div class="field">
+                                        <label for="feature6">feature 6</label>
+                                        <input type="text"
+                                               asp-for="Feature6"
+                                               id="feature6"
+                                               placeholder="E.g., Ball rental" />
+                                        <span class="validation" asp-validation-for="Feature6"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="field">
+                                        <p class="prev-3">prev</p>
+                                    </div>
+                                    <div class="field">
+                                        <input type="submit" class="submit" value="Submit" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="about reveal reveal-left">
+                <div class="logo">
+                    <i class="fa-solid fa-futbol"></i>
+                    <p>Curva <span>Hagz</span></p>
+                </div>
+                <div class="info">
+                    <p>
+                        Welcome to Curva Hagz, where your sports journey begins! At Curva Hagz,
+                        we provide top-quality playground facilities for everyone. Join us today!
+                    </p>
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>FCI-KFSU-KFS-EGY</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+20) 127 489 2442</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-links reveal reveal-left">
+                <h3>quick links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="index.html">home</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="about.html">about us</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="contact.html">contact</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">classes</a>
+                </div>
+            </div>
+            <div class="useful-links reveal reveal-right">
+                <h3>useful links</h3>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">privacy policy</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">term & conditions</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">elements</a>
+                </div>
+                <div class="link">
+                    <i class="fa-solid fa-angle-right"></i>
+                    <a href="#">support</a>
+                </div>
+            </div>
+            <div class="newsletter reveal reveal-right">
+                <h3>newsletter</h3>
+                <p>
+                    Stay informed and inspired with our newsletter, exciting updates,
+                    and special offers delivered straight to your inbox.
+                </p>
+                <form action="#">
+                    <input type="email"
+                           id="email"
+                           placeholder="Email Address"
+                           autocomplete="on" />
+                    <input type="submit" value="subscribe" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright &copy; curva hagz 2025 all rights reserved</p>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="~/js/add-playground.js"></script>
+    @section Scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+</body>
+</html>
