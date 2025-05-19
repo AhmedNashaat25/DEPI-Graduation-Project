@@ -12,7 +12,7 @@ namespace CurvaHAgz.Web.App.Services
 
             var fromAddress = new MailAddress("fantfoot024@gmail.com", "Curva Hagz");
             var toAddress = new MailAddress(toEmail);
-            const string fromPassword = "kxjk qjzc nljc fate"; // Use your app password
+            const string fromPassword = "key"; // Use your app password
 
             var smtp = new SmtpClient
             {
