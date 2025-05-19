@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CurvaHAgz.Web.App
+build_property.RootNamespace = CurvaHAgz.Web.App
+build_property.ProjectDir = C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHAgz.Web.App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Acer\Downloads\GradProject (4)\GradProject (1)\GradProject\CurvaHAgz.Web.App
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/PlayerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQbGF5ZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/ResetLinkSent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldExpbmtTZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Account/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Playground/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWdyb3VuZFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Playground/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWdyb3VuZFxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Playground/PlayGroundDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWdyb3VuZFxQbGF5R3JvdW5kRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Playground/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWdyb3VuZFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Teams/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Teams/TeamInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcVGVhbUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/GradProject (4)/GradProject (1)/GradProject/CurvaHAgz.Web.App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l7auf68d5q

@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CurvaHAgz.Web.App.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CurvaHAgz.Web.App.eixxrekpxj.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\Alex.jpg",
+      "PackagePath": "staticwebassets\\Images\\Alex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\Cairo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Cairo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\Cairo2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Cairo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\abdelrahman.JPG",
+      "PackagePath": "staticwebassets\\Images\\abdelrahman.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\adidas.png",
+      "PackagePath": "staticwebassets\\Images\\adidas.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bmi.png",
+      "PackagePath": "staticwebassets\\Images\\bmi.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bmi2.png",
+      "PackagePath": "staticwebassets\\Images\\bmi2.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bmi3.png",
+      "PackagePath": "staticwebassets\\Images\\bmi3.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\bmr.png",
+      "PackagePath": "staticwebassets\\Images\\bmr.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\body-building.jpg",
+      "PackagePath": "staticwebassets\\Images\\body-building.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\boxing.jpg",
+      "PackagePath": "staticwebassets\\Images\\boxing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\boxing2.png",
+      "PackagePath": "staticwebassets\\Images\\boxing2.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\calisthenics.png",
+      "PackagePath": "staticwebassets\\Images\\calisthenics.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\cardio.jpg",
+      "PackagePath": "staticwebassets\\Images\\cardio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\crossfit.jpg",
+      "PackagePath": "staticwebassets\\Images\\crossfit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\event1.jpg",
+      "PackagePath": "staticwebassets\\Images\\event1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\event2.jpg",
+      "PackagePath": "staticwebassets\\Images\\event2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\event3.jpg",
+      "PackagePath": "staticwebassets\\Images\\event3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\fat.png",
+      "PackagePath": "staticwebassets\\Images\\fat.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\features.jpg",
+      "PackagePath": "staticwebassets\\Images\\features.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\find-plan.png",
+      "PackagePath": "staticwebassets\\Images\\find-plan.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\fit.png",
+      "PackagePath": "staticwebassets\\Images\\fit.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\fitness.jpg",
+      "PackagePath": "staticwebassets\\Images\\fitness.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\body building.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\body building.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\boxing.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\boxing.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\cardio.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\cardio.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\crossfit.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\crossfit.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\fitness.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\fitness.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\icons\\yoga.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\yoga.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\image-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\image-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\image-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\image-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\landing-main.png",
+      "PackagePath": "staticwebassets\\Images\\landing-main.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\landing-page.jpg",
+      "PackagePath": "staticwebassets\\Images\\landing-page.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\landing-page2.jpg",
+      "PackagePath": "staticwebassets\\Images\\landing-page2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\landing-page3.jpg",
+      "PackagePath": "staticwebassets\\Images\\landing-page3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\nb.png",
+      "PackagePath": "staticwebassets\\Images\\nb.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\nike.png",
+      "PackagePath": "staticwebassets\\Images\\nike.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\personal-training.jpeg",
+      "PackagePath": "staticwebassets\\Images\\personal-training.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\personal.jpg",
+      "PackagePath": "staticwebassets\\Images\\personal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\puma.png",
+      "PackagePath": "staticwebassets\\Images\\puma.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\reception.jpg",
+      "PackagePath": "staticwebassets\\Images\\reception.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\recomp2.png",
+      "PackagePath": "staticwebassets\\Images\\recomp2.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\userphoto.png",
+      "PackagePath": "staticwebassets\\Images\\userphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\yoga.jpg",
+      "PackagePath": "staticwebassets\\Images\\yoga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\Images\\yoga2.png",
+      "PackagePath": "staticwebassets\\Images\\yoga2.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\add-playground.css",
+      "PackagePath": "staticwebassets\\css\\add-playground.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\all.min.pro.css",
+      "PackagePath": "staticwebassets\\css\\all.min.pro.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\forgotpassword.css",
+      "PackagePath": "staticwebassets\\css\\forgotpassword.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\playground-details.css",
+      "PackagePath": "staticwebassets\\css\\playground-details.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\playgrounds.css",
+      "PackagePath": "staticwebassets\\css\\playgrounds.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\signup.css",
+      "PackagePath": "staticwebassets\\css\\signup.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\css\\teams.css",
+      "PackagePath": "staticwebassets\\css\\teams.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\add-playground.js",
+      "PackagePath": "staticwebassets\\js\\add-playground.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\forgotpassword.js",
+      "PackagePath": "staticwebassets\\js\\forgotpassword.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\playgrounds-details.js",
+      "PackagePath": "staticwebassets\\js\\playgrounds-details.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\playgrounds.js",
+      "PackagePath": "staticwebassets\\js\\playgrounds.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\signup.js",
+      "PackagePath": "staticwebassets\\js\\signup.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\js\\teams.js",
+      "PackagePath": "staticwebassets\\js\\teams.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\293608dd-0194-4eb5-97aa-ce2a82f4cd3e_30207150200715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\293608dd-0194-4eb5-97aa-ce2a82f4cd3e_30207150200715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\2c365ddc-aaab-4683-aa37-ebe5a5f37617_30207150020715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2c365ddc-aaab-4683-aa37-ebe5a5f37617_30207150020715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\76a53ac2-049c-44ae-8a00-9c31456c7f2f_30207150200715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\76a53ac2-049c-44ae-8a00-9c31456c7f2f_30207150200715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\7916c3a6-beb6-4a88-9a42-d8ded3121023_30207150200715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7916c3a6-beb6-4a88-9a42-d8ded3121023_30207150200715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\90b90903-62af-41d1-8d31-35e920659805_30207150200715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\90b90903-62af-41d1-8d31-35e920659805_30207150200715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Downloads\\GradProject (4)\\GradProject (1)\\GradProject\\CurvaHAgz.Web.App\\wwwroot\\uploads\\eca787a3-8c9d-436d-b251-571cbea392cc_30207150200715.jpg",
+      "PackagePath": "staticwebassets\\uploads\\eca787a3-8c9d-436d-b251-571cbea392cc_30207150200715.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CurvaHAgz.Web.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CurvaHAgz.Web.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CurvaHAgz.Web.App.props",
+      "PackagePath": "build\\CurvaHAgz.Web.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CurvaHAgz.Web.App.props",
+      "PackagePath": "buildMultiTargeting\\CurvaHAgz.Web.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CurvaHAgz.Web.App.props",
+      "PackagePath": "buildTransitive\\CurvaHAgz.Web.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

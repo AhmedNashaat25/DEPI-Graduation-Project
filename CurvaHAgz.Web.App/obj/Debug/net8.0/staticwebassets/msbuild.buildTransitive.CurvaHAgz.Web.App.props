@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CurvaHAgz.Web.App.props" />
+</Project>
